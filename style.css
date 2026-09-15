@@ -16,3 +16,11 @@
 @media(prefers-reduced-motion:reduce){#confirmation-message h1,#gift-message,.gift-box,.gift-lid{animation:none!important}}
 
 .share-retry{display:block;text-align:center;color:var(--blue);text-decoration:underline;font-size:12px;padding:8px;min-height:44px}
+/* Waitlist confirmation */
+.welcome-note{color:#777980;font-size:16px;line-height:1.6;margin:22px 0 30px}
+.updates-link{display:inline-flex;min-width:280px;max-width:100%;border:0;color:var(--ink);background:var(--lime);font-size:16px;font-weight:600}
+.updates-link:hover{color:var(--ink);background:#cef239}
+.welcome-screen h1{margin:0;animation:ink-in .55s ease-out both}
+@media(prefers-reduced-motion:reduce){.welcome-screen h1{animation:none}}
+
+#headline{line-height:1.15;mask-image:none;overflow:visible}

@@ -2,77 +2,52 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Forehead — Sell ad space to brands</title>
-<meta name="description" content="Join the Forehead waitlist. Sell ad space to brands.">
+<title>Forehead — Sell ad space to anyone</title>
+<meta name="description" content="Join the Forehead waitlist. Sell ad space to anyone.">
 <meta name="theme-color" content="#ffffff">
 <link rel="canonical" href="https://forehead.world/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Forehead">
 <meta property="og:url" content="https://forehead.world/">
-<meta property="og:title" content="Forehead — Sell ad space to brands">
-<meta property="og:description" content="Join the Forehead waitlist. Sell ad space to brands.">
-<meta property="og:image" content="https://forehead.world/og-image-v2.png">
+<meta property="og:title" content="Forehead — Sell ad space to anyone">
+<meta property="og:description" content="Join the Forehead waitlist. Sell ad space to anyone.">
+<meta property="og:image" content="https://forehead.world/og-image-calm-v1.png">
 <meta property="og:image:type" content="image/png">
-<meta property="og:image:width" content="1734">
+<meta property="og:image:width" content="1733">
 <meta property="og:image:height" content="907">
-<meta property="og:image:alt" content="Sell ad space to brands. Join the waitlist — Forehead.">
+<meta property="og:image:alt" content="your space might be worth something">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@adforehead">
-<meta name="twitter:title" content="Forehead — Sell ad space to brands">
-<meta name="twitter:description" content="Join the Forehead waitlist. Sell ad space to brands.">
-<meta name="twitter:image" content="https://forehead.world/og-image-v2.png">
-<meta name="twitter:image:alt" content="Sell ad space to brands. Join the waitlist — Forehead.">
-<link rel="icon" href="./mascot.png" type="image/png">
+<meta name="twitter:title" content="Forehead — Sell ad space to anyone">
+<meta name="twitter:description" content="Join the Forehead waitlist. Sell ad space to anyone.">
+<meta name="twitter:image" content="https://forehead.world/og-image-calm-v1.png">
+<meta name="twitter:image:alt" content="your space might be worth something">
+<link rel="icon" href="./favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="./style.css">
 <script src="./app.js" type="module"></script>
 </head>
 <body>
 <div class="page">
 <header>
-<a class="brand" href="./" aria-label="Forehead home"><img src="./mascot.png" alt="" width="34" height="34">forehead</a>
+<a class="brand" href="./" aria-label="Forehead home">forehead</a>
 <a class="social-link" href="https://x.com/adforehead" target="_blank" rel="noopener noreferrer" aria-label="Forehead on X"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M18.9 2H22l-6.8 7.8L23.2 22H17l-4.9-7.4L5.6 22H2.4l8.2-9.5L.8 2h6.3l4.4 6.7L18.9 2ZM17.8 20h1.7L6.1 3.9H4.3L17.8 20Z"/></svg></a>
 </header>
 <main>
 <section id="signup-screen" class="signup-screen" aria-labelledby="headline">
-<h1 id="headline"><span class="ink-word">Sell ad space</span><br><span class="ink-word second">to brands.</span></h1>
+<h1 id="headline">Sell ad space<br>to anyone.</h1>
 <form id="waitlist-form">
 <label class="sr-only" for="email">Email address</label>
 <input id="email" name="email" type="email" required maxlength="254" placeholder="Your email" autocomplete="email" inputmode="email">
-<button type="submit" id="join" class="primary">Join waitlist</button>
+<button type="submit" id="join" class="primary">Join the waitlist</button>
 <div class="honey" aria-hidden="true"><label for="website">Website</label><input id="website" name="website" tabindex="-1" autocomplete="off"></div>
 
 <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
 </form>
 </section>
-<section id="welcome-screen" class="welcome-screen" aria-label="Waitlist confirmation" hidden>
-<div id="confirmation-message"><h1 id="welcome-title" tabindex="-1">You’re in.</h1></div>
-<div id="gift-message" hidden>
-<svg class="gift-icon" viewBox="0 0 160 160" aria-hidden="true">
-<ellipse class="gift-shadow" cx="80" cy="139" rx="41" ry="6" fill="#eff0f4"/>
-<g class="gift-box"><rect x="38" y="68" width="84" height="62" rx="6" fill="#3154ef"/><path d="M71 72h18v58H71z" fill="#d8fc4e"/>
-<g class="gift-lid"><rect x="30" y="53" width="100" height="22" rx="5" fill="#2345d4"/><path d="M71 53h18v22H71z" fill="#d8fc4e"/><path d="M79 55C46 57 46 26 59 28c11 1 15 16 20 27Zm2 0c33 2 33-29 20-27-11 1-15 16-20 27Z" fill="none" stroke="#c5ed33" stroke-width="9" stroke-linejoin="round"/></g></g>
-</svg>
-<h1 id="gift-title" tabindex="-1">Your first ad<br>is on us.</h1>
-<button id="make-ad" class="primary" type="button">Make my ad</button>
-</div>
-</section>
-<section id="ad-screen" class="ad-screen" aria-labelledby="ad-title" hidden>
-<div class="ad-intro"><h1 id="ad-title" tabindex="-1">What will you sell?</h1></div>
-<div class="ad-art" id="ad-preview" role="img" aria-label="My X banner is open for ads. DM me to book.">
-<img class="character" src="./mascot.png" alt="" width="732" height="732">
-<div class="placard"><span id="sign-surface">MY X BANNER</span><strong>IS OPEN FOR ADS.</strong><small id="sign-handle">DM ME TO BOOK</small></div>
-
-</div>
-<div class="ad-controls">
-<div class="choices" role="group" aria-label="What will you sell?"><button type="button" class="choice active" data-surface="X banner" aria-pressed="true">X banner</button><button type="button" class="choice" data-surface="T-shirt" aria-pressed="false">T-shirt</button><button type="button" class="choice" data-surface="forehead" aria-pressed="false">My forehead</button><button type="button" class="choice" data-surface="custom" aria-pressed="false">Something else</button></div>
-<div id="custom-field" class="field" hidden><label class="sr-only" for="custom-surface">Your space</label><input id="custom-surface" maxlength="28" placeholder="What would you sell?" autocomplete="off"></div>
-<div class="field"><label class="sr-only" for="x-handle">Your X handle</label><input id="x-handle" maxlength="16" placeholder="@YOURHANDLE" autocomplete="off" spellcheck="false" pattern="@?[A-Za-z0-9_]{1,15}"></div>
-<div class="card-actions"><button type="button" id="download" class="secondary" disabled><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 3v12m-5-5 5 5 5-5M4 16v5h16v-5"/></svg>Download</button><button type="button" id="share" class="primary" disabled>Share on X<svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 16V3m-5 5 5-5 5 5M5 13v8h14v-8"/></svg></button></div>
-<p id="card-status" class="card-status" role="status" aria-live="polite"></p>
-<a id="x-compose" class="share-retry" href="https://x.com/intent/tweet" target="_blank" rel="noopener noreferrer" hidden>Open X</a>
-<p id="image-error" class="form-status" hidden>The image could not load. <button id="retry-image" type="button">Try again</button></p>
-</div>
-<canvas id="share-card" width="1080" height="1080" hidden aria-hidden="true"></canvas>
+<section id="welcome-screen" class="welcome-screen" aria-labelledby="welcome-title" hidden>
+<h1 id="welcome-title" tabindex="-1">You’re in.</h1>
+<p class="welcome-note">We’ll let you know when Forehead launches.</p>
+<a class="primary updates-link" href="https://x.com/adforehead" target="_blank" rel="noopener noreferrer">Follow on X for updates</a>
 </section>
 </main>
 <footer><button type="button" id="privacy-open">Privacy</button></footer>
